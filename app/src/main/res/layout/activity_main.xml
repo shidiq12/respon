@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wy"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:id="@+id/clover"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginEnd="272dp"
+       android:elevation="6dp"
+       android:src="@drawable/clover"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <LinearLayout
+       android:id="@+id/textsplash"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginEnd="8dp"
+       android:layout_marginStart="8dp"
+       android:layout_marginTop="300dp"
+       android:elevation="6dp"
+       android:gravity="center"
+       android:orientation="vertical"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Selamat Datang"
+          android:textStyle="bold|italic"
+          android:textColor="#FFF"
+          android:textSize="24sp" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="welcome to aplication"
+          android:textColor="#FFF"
+          android:textSize="16sp" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/texthome"
+       android:layout_width="310dp"
+       android:background="@drawable/cv"
+       android:layout_height="170dp"
+       android:layout_marginStart="24dp"
+       android:layout_marginTop="10dp"
+       android:elevation="6dp"
+       android:gravity="left"
+       android:orientation="vertical"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+      <ImageView
+          android:layout_width="200dp"
+          android:layout_height="140dp"
+          android:src="@drawable/kl"
+          android:layout_marginLeft="60dp"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="sidikmilati1998@gmail.com"
+          android:textSize="16dp"
+          android:textStyle="bold|italic"
+          android:textColor="@color/colorAccent1"
+          android:layout_marginLeft="60dp"/>
+
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:id="@+id/menus"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginEnd="8dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginStart="8dp"
+       android:layout_marginTop="220dp"
+       android:elevation="6dp"
+       android:orientation="vertical"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.726"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+android:layout_marginLeft="10dp"
+          android:layout_marginBottom="50dp"
+          android:orientation="horizontal">
+
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginRight="50dp"
+             android:gravity="center"
+             android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/hm" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="kamera"
+                android:id="@+id/btn1"
+                android:textStyle="bold"
+                android:background="@drawable/oval"
+                android:layout_marginTop="10dp"
+                android:textColor="#0E1843"
+                android:textSize="16sp" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="180dp"
+             android:layout_height="wrap_content"
+             android:layout_marginRight="50dp"
+             android:gravity="center"
+             android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/ha" />
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="list mahasiswa"
+                android:id="@+id/btn2"
+                android:onClick="bnt6"
+                android:textStyle="bold"
+                android:background="@drawable/oval"
+                android:layout_marginTop="10dp"
+                android:textColor="#0E1843"
+                android:textSize="16sp" />
+
+         </LinearLayout>
+
+
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="120dp"
+          android:orientation="horizontal">
+
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="50dp"
+             android:gravity="center"
+             android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/ru" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="profile"
+                android:id="@+id/btn3"
+                android:textStyle="bold"
+                android:onClick="btn5"
+                android:background="@drawable/oval"
+                android:layout_marginTop="10dp"
+                android:textColor="#0E1843"
+                android:textSize="16sp" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="180dp"
+             android:layout_height="wrap_content"
+             android:layout_marginRight="50dp"
+             android:gravity="center"
+             android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/gn" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="log out"
+                android:id="@+id/btn4"
+                android:textStyle="bold"
+                android:onClick="btn8"
+                android:background="@drawable/oval"
+                android:layout_marginTop="10dp"
+                android:textColor="#0E1843"
+                android:textSize="16sp" />
+
+         </LinearLayout>
+
+
+      </LinearLayout>
+
+
+   </LinearLayout>
+
+   <ImageView
+       android:id="@+id/bgapp"
+       android:layout_width="526dp"
+       android:layout_height="900dp"
+       android:layout_marginEnd="8dp"
+       android:layout_marginStart="8dp"
+       android:scaleType="fitXY"
+       android:src="@drawable/bgapp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.923"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

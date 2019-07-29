@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">responsi mobile</string>
+    <string name="create_account"><font color="#00ff00">text</font></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="title_activity_halaman_awal">halaman_awal</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="call">Call</string>
+    <string name="chat">Chat</string>
+    <string name="contact">Contact</string>
+    <string name="no" />
+    <string name="name" />
+    <string name="position" />
+    <string name="birth_date" />
+
+
+</resources>
